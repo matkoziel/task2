@@ -39,7 +39,7 @@ public class Student {
         return "******";
     }
     @ToString.Include(name = "birthday")
-    private String maskZipCode() {
+    private String maskBirthday() {
         return "**-**-****";
     }
 
